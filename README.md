@@ -26,44 +26,34 @@ Follow these steps to get the agent running on your local machine:
 * **Python 3.13+**: Ensure you have the latest Python version installed.
 * **ADB Tools**: Install Android Debug Bridge and add it to your System Path.
 * **Mobile Device**: Enable **USB Debugging** on your Android phone.
+## 🔧 **Detailed Configuration & Execution**
 
-### **2. Clone and Install**
-```bash
-# Clone the repository
-git clone [https://github.com/yourusername/DroidSync-Vision-Agent.git](https://github.com/yourusername/DroidSync-Vision-Agent.git)
-cd DroidSync-Vision-Agent'''
-
+### **1. Environment Setup**
+Create a `.env` file in your project folder and add your key:
+```env
+GOOGLE_API_KEY=your_actual_api_key_here
 2. Device Connection (ADB)
 The agent communicates with your device via the Android Debug Bridge (ADB):
 
-Enable Developer Options and USB Debugging on your Android phone.
+Enable Developer Options and USB Debugging on your phone.
 
-Connect the phone to your PC.
+Connect your phone to your PC via USB.
 
-Verify the connection by running:
+Run this command to verify connection:
 
 Bash
 
 adb devices
 🚀 Execution Flow & Verification
 Execution Flow
-To launch the autonomous agent, run the following command in your terminal:
+Run the main script to start the automation:
 
 Bash
 
 python main.py
-Process Cycle
-Screenshot: The agent captures the current screen state.
-
-Vision Analysis: Screenshots are processed via Mobilerun Cloud to understand the UI.
-
-Action Planning: The AI plans the next tap or swipe based on your prompt.
-
-Device Command: Commands are sent to the phone via ADB.
-
 Verification (How to check success)
-Terminal Logs: Monitor the logs for "Action: Clicking Gmail" or "Action: Typing in Calendar".
+Terminal Logs: Monitor the logs for "Action: Clicking Gmail".
 
-Visual Confirmation: Watch your phone screen; it will navigate Gmail and Calendar without manual input.
+Visual Confirmation: Watch your phone screen navigate autonomously.
 
-Final Output: Check your Calendar app for the 'Work Sync' event. You will receive a system notification.
+Final Output: You will see a system notification from your Calendar app.
