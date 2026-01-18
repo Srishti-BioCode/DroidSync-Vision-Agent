@@ -31,5 +31,5 @@ Follow these steps to get the agent running on your local machine:
 ### **2. Environment Setup**
 Create a `.env` file in your project folder and add your key:
 ```env
-GOOGLE_API_KEY=your_actual_api_key_here```
+GOOGLE_API_KEY=your_actual_api_key_here
 
