@@ -2,7 +2,10 @@
 
 ## 🌟 **Project Overview**
 Our agent is a **Vision-based AI** that performs tasks autonomously. Without relying on traditional APIs, it "sees" the screen like a human and switches between apps to complete workflows.
+## 📺 **Project Demo Video**
+Click the image below to watch the full 3-minute demo of the Vision Agent in action.
 
+[![Watch the video]
 
 
 ## 💡 **Why is this Important? (The "Difficult" Part)**
