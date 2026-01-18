@@ -33,3 +33,13 @@ Create a `.env` file in your project folder and add your key:
 ```env
 GOOGLE_API_KEY=your_actual_api_key_here
 
+### **2. Device Connection (ADB)**
+The agent communicates with your device via the Android Debug Bridge (ADB):
+
+* **Step A:** Enable Developer Options and USB Debugging on your phone.
+* **Step B:** Connect your phone to your PC via USB.
+* **Step C:** Verify the connection by running:
+
+```bash
+adb devices
+
