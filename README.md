@@ -60,3 +60,10 @@ python main.py
 
 **Final Output**: You will see a **system notification from your Calendar app** 
 
+## 🛠️ **Tech Stack**
+
+* **Language**: Python 3.13+
+* **AI Model**: Google Gemini (Vision Capabilities) 
+* **Device Control**: ADB (Android Debug Bridge)
+* **Environment Management**: Python-dotenv (for secure API keys)
+
