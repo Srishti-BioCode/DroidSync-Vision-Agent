@@ -3,10 +3,9 @@
 ## 🌟 **Project Overview**
 Our agent is a **Vision-based AI** that performs tasks autonomously. Without relying on traditional APIs, it "sees" the screen like a human and switches between apps to complete workflows.
 ## 📺 **Project Demo Video**
-Click the image below to watch the full 3-minute demo of the Vision Agent in action.
+Click the image below to watch the full 3-minute demo of the Vision Agent in action:
 
-[![Watch the video]https://github.com/Srishti-BioCode/DroidSync-Vision-Agent/commit/1b45cc457b5ec1a9467fb85c792d4f1293ab527f
-
+[![Watch the video]
 
 ## 💡 **Why is this Important? (The "Difficult" Part)**
 Most automation tools (like Zapier or Selenium) require backend access or fixed element IDs. **DroidSync-Vision-Agent** is unique for the following reasons:
