@@ -41,5 +41,5 @@ The agent communicates with your device via the Android Debug Bridge (ADB):
 * **Step C:** Verify the connection by running:
 
 ```bash
-adb devices```
+adb devices**\`\`\`**
 
