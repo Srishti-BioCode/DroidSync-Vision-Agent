@@ -32,28 +32,27 @@ Follow these steps to get the agent running on your local machine:
 Create a `.env` file in your project folder and add your key:
 ```env
 GOOGLE_API_KEY=your_actual_api_key_here
+
 ### **2. Device Connection (ADB)**
 The agent communicates with your device via the Android Debug Bridge (ADB):
+* **Enable Developer Options** and **USB Debugging** on your phone.
+* **Connect your phone** to your PC via USB.
+* **Verify the connection** by running:
 
-Enable Developer Options and USB Debugging on your phone.
-
-Connect your phone to your PC via USB.
-
-Run this command to verify connection:
-
-Bash
-
+```bash
 adb devices
-### 🚀 **Execution Flow & Verification**
+
+
+### 🚀 **3.Execution Flow & Verification**
 Execution Flow
 Run the main script to start the automation:
 
-Bash
-
+```bash
 python main.py
-### **Verification (How to check success)**
-Terminal Logs: Monitor the logs for "Action: Clicking Gmail".
 
-Visual Confirmation: Watch your phone screen navigate autonomously.
+### **4.Verification (How to check success)**
+* *"Terminal Logs: Monitor the logs for "Action: Clicking Gmail".
 
-Final Output: You will see a system notification from your Calendar app.
+* *"Visual Confirmation: Watch your phone screen navigate autonomously.
+
+* *"Final Output: You will see a system notification from your Calendar app.
