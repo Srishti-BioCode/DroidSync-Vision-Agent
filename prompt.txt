@@ -1,5 +1,5 @@
 ### 📝 **Agent Prompt (The Instructions)**
 The agent follows this natural language instruction to complete the task:
-"Open the Gmail app and find the latest message containing the word 'Zoom Meeting'. 
-Read the date and time mentioned in the email. 
-Finally, open the Calendar app and schedule an event for that specific time."
+> "Open the Gmail app and find the latest message containing the word 'Zoom Meeting'. 
+> Read the date and time mentioned in the email. 
+> Finally, open the Calendar app and schedule an event for that specific time."
