@@ -14,6 +14,13 @@ Most automation tools (like Zapier or Selenium) require backend access or fixed 
 * **Complex Data Reasoning**: Handles unstructured date/time extraction from emails.
 * **B2B Impact**: Automates manual scheduling, saving significant employee time.
 
+## 📝 **Agent Prompt (The Instructions)**
+The agent follows this natural language instruction to complete the task:
+"Open the Gmail app and find the latest message containing the word 'Zoom Meeting'. 
+Read the date and time mentioned in the email. 
+Close the app, open calender app and create a new event with that specific date and time with the title 'Work Sync'.
+Save the event and close the calendar view."
+
 ## 🛠️ **Key Steps in Automation**
 1. **Gmail Data Extraction**: The agent identifies the specific message containing 'Meeting'.
 2. **Contextual Reasoning**: It extracts the **Date and Time** and stores it in memory.
