@@ -40,7 +40,7 @@ The agent communicates with your device via the Android Debug Bridge (ADB):
 * **Verify the connection** by running:
 
 ```bash
-adb devices
+adb devices```
 
 
 ### 🚀 **3.Execution Flow & Verification**
@@ -48,7 +48,7 @@ Execution Flow
 Run the main script to start the automation:
 
 ```bash
-python main.py
+python main.py```
 
 ### **4.Verification (How to check success)**
 * *"Terminal Logs: Monitor the logs for "Action: Clicking Gmail".
