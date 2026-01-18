@@ -33,46 +33,37 @@ Follow these steps to get the agent running on your local machine:
 git clone [https://github.com/yourusername/DroidSync-Vision-Agent.git](https://github.com/yourusername/DroidSync-Vision-Agent.git)
 cd DroidSync-Vision-Agent
 
-## 🔧 **Detailed Configuration & Execution**
-
-## **1. Environment Configuration**
-Before running the agent, you must set up your environment variables to authenticate with the Vision API.
-* Create a `.env` file in the project root directory.
-* Add your Google API Key (Gemini) inside the file:
-```env
-GOOGLE_API_KEY=your_actual_api_key_here
-## **2. Device Connection (ADB)
+2. Device Connection (ADB)
 The agent communicates with your device via the Android Debug Bridge (ADB):
 
-**Enable Developer Options and USB Debugging on your Android phone.
-**Connect the phone to your PC.
+Enable Developer Options and USB Debugging on your Android phone.
 
-**Verify the connection by running:
-```bash
+Connect the phone to your PC.
+
+Verify the connection by running:
+
+Bash
+
 adb devices
-Your device serial number should appear in the terminal.
-
-## 🚀 *Execution Flow & Verification
+🚀 Execution Flow & Verification
 Execution Flow
 To launch the autonomous agent, run the following command in your terminal:
-```bash
+
+Bash
+
 python main.py
+Process Cycle
+Screenshot: The agent captures the current screen state.
 
-## **Process Cycle:
+Vision Analysis: Screenshots are processed via Mobilerun Cloud to understand the UI.
 
-**Screenshot: The agent captures the current screen state.
+Action Planning: The AI plans the next tap or swipe based on your prompt.
 
-**Vision Analysis: Screenshots are processed via Mobilerun Cloud to understand the UI.
+Device Command: Commands are sent to the phone via ADB.
 
-**Action Planning: The AI plans the next tap or swipe based on your prompt.
+Verification (How to check success)
+Terminal Logs: Monitor the logs for "Action: Clicking Gmail" or "Action: Typing in Calendar".
 
-**Device Command: Commands are sent to the phone via ADB.
+Visual Confirmation: Watch your phone screen; it will navigate Gmail and Calendar without manual input.
 
-## **Verification (How to check success)
-**Terminal Logs: Monitor the logs for "Action: Clicking Gmail" or "Action: Typing in Calendar."
-
-**Visual Confirmation: Watch your phone screen; it will navigate Gmail and Calendar without manual input.
-
-**Final Output: Check your Calendar app for the 'Work Sync' event. You will receive a *system notification as proof of a successful save.
-
-
+Final Output: Check your Calendar app for the 'Work Sync' event. You will receive a system notification.
