@@ -50,7 +50,7 @@ Run the main script to start the automation:
 
 python main.py
 ```
-### **4.Verification (How to check success)**
+### **5.Verification (How to check success)**
 **Terminal Logs**: Monitor the logs for **"Action: Clicking Gmail"**
 
 **Visual Confirmation**: Watch your phone screen navigate autonomously.
