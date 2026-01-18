@@ -1,25 +1,78 @@
-# 🤖 DroidSync-Vision-Agent
+# 🤖 **DroidSync-Vision-Agent**
 
-## 🌟 Project Overview
-Hamara agent ek **Vision-based AI** hai jo autonomously tasks perform karta hai. Ye traditional API ka sahara liye bina, insaan ki tarah screen ko "dekh" kar apps ke beech switch karta hai.
-
-## 💡 Why is this Important? (The "Difficult" Part)
-Zyadatar automation tools (jaise Zapier ya Selenium) ko backend access ya fixed IDs chahiye hoti hain. **DroidSync-Vision-Agent** in reasons ki wajah se alag hai:
-* **Zero API Dependency**: Ye Gmail ya Calendar ki kisi official API ko use nahi karta, isliye ye kisi bhi app par bina access liye kaam kar sakta hai.
-* **Vision Over Code**: Agar Gmail apna design badal bhi de, toh hamara agent use "dekh" kar pehchan lega.
-* **Complex Data Reasoning**: Unstructured email se date/time nikalna aur use structured calendar format mein dalna ek high-level AI task hai.
-* **Employee Efficiency**: Ye ek real-world **B2B solution** hai jo employee ka manual scheduling time **90% tak kam** kar sakta hai.
+## 🌟 **Project Overview**
+Our agent is a **Vision-based AI** that performs tasks autonomously. Without relying on traditional APIs, it "sees" the screen like a human and switches between apps to complete workflows.
 
 
 
-## 🛠️ Key Steps in Automation
-1. **Gmail Data Extraction**: Agent Gmail open karta hai aur 'Meeting' word ko identify karta hai.
-2. **Contextual Reasoning**: Ye email se **Date aur Time** ko extract karke yaad rakhta hai.
-3. **Calendar Integration**: Agent **System Calendar** mein 'Work Sync' event create karta hai.
-4. **Smart Notification**: Sabse bada fayda ye hai ki **Calendar app aapko meeting ka notification bhi bhej dega**, taaki aapka kaam miss na ho.
+## 💡 **Why is this Important? (The "Difficult" Part)**
+Most automation tools (like Zapier or Selenium) require backend access or fixed element IDs. **DroidSync-Vision-Agent** is unique for the following reasons:
+* **Zero API Dependency**: Works on any app without needing official API access.
+* **Vision Over Code**: Resilient to UI changes; identifies elements visually.
+* **Complex Data Reasoning**: Handles unstructured date/time extraction from emails.
+* **B2B Impact**: Automates manual scheduling, saving significant employee time.
 
-## 🚀 Technical Requirements
-* **Python Version**: 3.13+
-* **Framework**: Droidrun
-* **Cloud Power**: Mobilerun Cloud (500 Credits)
-* **Connection**: ADB (Android Debug Bridge)
+## 🛠️ **Key Steps in Automation**
+1. **Gmail Data Extraction**: The agent identifies the specific message containing 'Meeting'.
+2. **Contextual Reasoning**: It extracts the **Date and Time** and stores it in memory.
+3. **Calendar Integration**: It opens the **System Calendar** and creates the event.
+4. **Smart Notification**: The native **Calendar app triggers a notification** once saved.
+
+## 🔧 **Installation & Setup (Crucial Steps)**
+
+Follow these steps to get the agent running on your local machine:
+
+### **1. Prerequisites**
+* **Python 3.13+**: Ensure you have the latest Python version installed.
+* **ADB Tools**: Install Android Debug Bridge and add it to your System Path.
+* **Mobile Device**: Enable **USB Debugging** on your Android phone.
+
+### **2. Clone and Install**
+```bash
+# Clone the repository
+git clone [https://github.com/yourusername/DroidSync-Vision-Agent.git](https://github.com/yourusername/DroidSync-Vision-Agent.git)
+cd DroidSync-Vision-Agent
+
+## 🔧 **Detailed Configuration & Execution**
+
+### **1. Environment Configuration**
+Before running the agent, you must set up your environment variables to authenticate with the Vision API.
+* Create a `.env` file in the project root directory.
+* Add your Google API Key (Gemini) inside the file:
+```env
+GOOGLE_API_KEY=your_actual_api_key_here
+### **2. Device Connection (ADB)
+The agent communicates with your device via the Android Debug Bridge (ADB):
+
+*Enable Developer Options and USB Debugging on your Android phone.
+*Connect the phone to your PC.
+
+*Verify the connection by running:
+```bash
+adb devices
+Your device serial number should appear in the terminal.
+
+### 🚀 *Execution Flow & Verification
+Execution Flow
+To launch the autonomous agent, run the following command in your terminal:
+```bash
+python main.py
+
+### Process Cycle:
+
+*Screenshot: The agent captures the current screen state.
+
+*Vision Analysis: Screenshots are processed via Mobilerun Cloud to understand the UI.
+
+*Action Planning: The AI plans the next tap or swipe based on your prompt.
+
+*Device Command: Commands are sent to the phone via ADB.
+
+### Verification (How to check success)
+*Terminal Logs: Monitor the logs for "Action: Clicking Gmail" or "Action: Typing in Calendar."
+
+*Visual Confirmation: Watch your phone screen; it will navigate Gmail and Calendar without manual input.
+
+*Final Output: Check your Calendar app for the 'Work Sync' event. You will receive a *system notification as proof of a successful save.
+
+
