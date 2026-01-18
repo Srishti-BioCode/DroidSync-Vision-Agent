@@ -31,7 +31,7 @@ Follow these steps to get the agent running on your local machine:
 ```bash
 # Clone the repository
 git clone [https://github.com/yourusername/DroidSync-Vision-Agent.git](https://github.com/yourusername/DroidSync-Vision-Agent.git)
-cd DroidSync-Vision-Agent
+cd DroidSync-Vision-Agent'''
 
 2. Device Connection (ADB)
 The agent communicates with your device via the Android Debug Bridge (ADB):
