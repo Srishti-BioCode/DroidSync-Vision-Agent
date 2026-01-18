@@ -65,4 +65,13 @@ python main.py
 * **AI Model**: Google Gemini (Vision Capabilities) 
 * **Device Control**: ADB (Android Debug Bridge)
 * **Environment Management**: Python-dotenv (for secure API keys)
+* 
+* ## ⚙️ **How It Works (The Logic Flow)**
+
+Our Vision Agent follows a 4-step autonomous loop to complete the task without any human intervention:
+
+1. **👀 Vision Perception**: The agent captures a screenshot of the Android screen.
+2. **🧠 Reasoning**: It analyzes the screen using the Gemini model to find the Gmail icon or meeting details.
+3. **🎯 Action Planning**: It decides the next click or scroll based on the prompt in `prompt.txt`.
+4. **📱 Execution**: It sends an ADB command to the device to perform the touch/swipe action.
 
