@@ -1,9 +1,16 @@
+# 🤖 DroidSync-Vision-Agent
+### *Automating Employee Workflows with AI Vision*
+
+---
+
 <p align="left">
-  <img src="https://img.shields.io/badge/PROJECT_STATUS-ACTIVE-success?style=for-the-badge&labelColor=333333">
-  <img src="https://img.shields.io/badge/LANGUAGE-KOTLIN-orange?style=for-the-badge&labelColor=333333">
-  <img src="https://img.shields.io/badge/DOMAIN-HR_TECH-blue?style=for-the-badge&labelColor=333333">
-  <img src="https://img.shields.io/badge/ACCESS_LEVEL-EMPLOYEE_ONLY-red?style=for-the-badge&labelColor=333333">
+  <img src="https://img.shields.io/badge/PROJECT_STATUS-STABLE-success?style=for-the-badge&labelColor=333333">
+  <img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=for-the-badge&labelColor=333333&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/AGENT_TYPE-VISION_DRIVEN-blueviolet?style=for-the-badge&labelColor=333333">
+  <img src="https://img.shields.io/badge/CAPABILITY-AUTONOMOUS_WORKFLOW-orange?style=for-the-badge&labelColor=333333">
 </p>
+
+---
 
 # 🤖 **DroidSync-Vision-Agent**
 
