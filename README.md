@@ -97,3 +97,6 @@ Our Vision Agent follows a 4-step autonomous loop to complete the task without a
 3. **🎯 Action Planning**: It decides the next click or scroll based on the prompt in `prompt.txt`.
 4. **📱 Execution**: It sends an ADB command to the device to perform the touch/swipe action.
 
+5. ## 🔑 Keywords
+`#MobilerunCloud` `#DroidSync` `#B2B` `#AI` `#Python` `#Automation` `#EmployeeEfficiency`
+
