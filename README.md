@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=for-the-badge&labelColor=333333&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/AGENT_TYPE-VISION_DRIVEN-blueviolet?style=for-the-badge&labelColor=333333">
   <img src="https://img.shields.io/badge/CAPABILITY-AUTONOMOUS_WORKFLOW-orange?style=for-the-badge&labelColor=333333">
+  <img src="https://img.shields.io/badge/CLOUD_ENGINE-MOBILERUN_CLOUD-blue?style=for-the-badge&labelColor=333333&logo=icloud&logoColor=white">
 </p>
 
 ---
