@@ -1,3 +1,10 @@
+<p align="left">
+  <img src="https://img.shields.io/badge/PROJECT_STATUS-ACTIVE-success?style=for-the-badge&labelColor=333333">
+  <img src="https://img.shields.io/badge/LANGUAGE-KOTLIN-orange?style=for-the-badge&labelColor=333333">
+  <img src="https://img.shields.io/badge/DOMAIN-HR_TECH-blue?style=for-the-badge&labelColor=333333">
+  <img src="https://img.shields.io/badge/ACCESS_LEVEL-EMPLOYEE_ONLY-red?style=for-the-badge&labelColor=333333">
+</p>
+
 # 🤖 **DroidSync-Vision-Agent**
 
 ## 🌟 **Project Overview**
